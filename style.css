@@ -52,16 +52,29 @@ body {
     cursor: pointer;
     
 }
-#output {
+.output {
     margin: 1rem;
     color: brown;
     padding: 1rem;
-    border-radius: .7rem;
     font-size: 1.3rem;
+    width: 400px;
 
-
+    button {
+        margin-left: 1rem;
+        padding: .5rem;
+        background-color: rgba(165, 42, 42, 0.776);
+        color: cornsilk;
+        cursor: pointer;
+        border: 0;
+        border-radius: .5rem;
+        font-weight: 600;
+    }
+    
+    
 }
 .completed {
     text-decoration: line-through;
     color: rgba(165, 42, 42, 0.776);
 }
+
+
